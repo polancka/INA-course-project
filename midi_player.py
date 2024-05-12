@@ -2,6 +2,7 @@ from pydub import AudioSegment
 from pydub.generators import Sine
 import pygame
 
+# Functionality of reading the MIDI notation list of notes and save it to a wav file (and optionally instantly play it)
 
 def create_note(pitch, duration):
     # Calculate frequency from MIDI pitch
@@ -13,7 +14,7 @@ def create_note(pitch, duration):
     
     return note
 
-def play_notes(notes):
+def save_to_file(notes, path):
     # Initialize an empty audio segment
     melody = AudioSegment.silent(duration=0)
 
@@ -23,28 +24,27 @@ def play_notes(notes):
         melody += note
     
     # Export the melody
-    melody.export("melody.wav", format="wav")
+    melody.export(path, format="wav")
 
-    #for playing right away
-    # # Initialize pygame
-    # pygame.mixer.init()
+
+def play_melody(file):
+    # Initialize pygame
+    pygame.mixer.init()
     
-    # # Load and play the WAV file
-    # pygame.mixer.music.load("melody.wav")
-    # pygame.mixer.music.play()
+    # Load and play the WAV file
+    pygame.mixer.music.load(file)
+    pygame.mixer.music.play()
     
-    # # Wait for the music to finish playing
-    # while pygame.mixer.music.get_busy():
-    #     pygame.time.Clock().tick(10)
+    # Wait for the music to finish playing
+    while pygame.mixer.music.get_busy():
+        pygame.time.Clock().tick(10)
 
 def main(notes_list):
-    notes = create_note(notes_list)
-    play_notes(notes)
+    path = "melody.wav"
+    save_to_file(notes, path)
+    play_melody(path)
 
 if __name__ == "__main__":
-    main()
-
-# # Example usage
-# notes = [(60, 1), (62, 0.5), (64, 0.5), (65, 1)]  # Example notes (MIDI pitch, duration)
-# play_notes(notes)
+    notes = [(60, 1), (62, 0.5), (64, 0.5), (65, 1)]  # Example notes (MIDI pitch, duration)
+    main(notes)
 

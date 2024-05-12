@@ -5,6 +5,7 @@ With traversing the graph in different ways, new melodies are obtained.
 Datasets used: 
 
 Requriements: 
+- networkx
 - pydub
 - pygame (optional for instantly playing melody)
 
