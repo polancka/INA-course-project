@@ -9,6 +9,7 @@ keys_major = ["F", "C", "G", "D", "A", "E", "B"]
 keys_minor = ["B", "E", "A", "D", "G", "C", "F"]
 
 for filename in os.listdir("./data"):
+	#print(filename)
 	tree = ET.parse("./data/" + filename)
 	root = tree.getroot()
 
@@ -59,9 +60,12 @@ for filename in os.listdir("./data"):
 							chord.append(prev_note)
 						chord_prev = chord.copy()
 						chord.append((step, octave, alter, beat.text))
-						mapping = {tuple(chord_prev): tuple(chord)}
+						if len(chord) == 2:
+							mapping = {prev_note: tuple(chord)}
+						else:
+							mapping = {tuple(chord_prev): tuple(chord)}
 						print(mapping)
-						nx.relabel_nodes(G, mapping, copy=False)
+						G = nx.relabel_nodes(G, mapping, copy=False)
 
 					else:
 						if len(chord) != 0:
@@ -81,8 +85,8 @@ for filename in os.listdir("./data"):
 
 				#print(step, octave)
 
-#print(len(G.nodes))
+print(len(G.nodes))
 #print(len(G.edges))
 #print(G.nodes)
-#for node in G.nodes:
-#	print(node)
+for node in G.nodes:
+	print(node)
