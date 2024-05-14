@@ -36,6 +36,13 @@ for filename in os.listdir("./data"):
 
 					label = ("rest", 0, 0, beat.text)
 
+					if label not in G.nodes:
+						G.add_node(label)
+					if prev_note is not None:
+						if (prev_note, label) not in G.edges:
+							G.add_edge(prev_note, label)
+					prev_note = label
+
 				else:
 					step = pitch.find(".//step").text
 					octave = pitch.find(".//octave").text
@@ -53,7 +60,6 @@ for filename in os.listdir("./data"):
 						alter = alter.text
 
 					#add to graph
-					#TODO chords
 					if is_chord:
 						print("found chord")
 						if len(chord) == 0:
@@ -69,6 +75,7 @@ for filename in os.listdir("./data"):
 
 					else:
 						if len(chord) != 0:
+							prev_note = tuple(chord)
 							chord = []
 
 
@@ -86,7 +93,11 @@ for filename in os.listdir("./data"):
 				#print(step, octave)
 
 print(len(G.nodes))
-#print(len(G.edges))
+print(len(G.edges))
 #print(G.nodes)
-for node in G.nodes:
-	print(node)
+#for node in G.nodes:
+#	print(node)
+
+#save graph
+nx.write_pajek(G, "notes_graph.net")
+print(len(list(nx.connected_components(nx.Graph(G))))) #confirm that graph is connected
