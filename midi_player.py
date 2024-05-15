@@ -53,6 +53,7 @@ def create_note(pitch, octave, accidental, duration):
         # Generate sine wave with the calculated frequency and duration
         sine_wave = Sine(frequency)
         note = sine_wave.to_audio_segment(duration_value * 1000)  # duration in milliseconds
+        note = note.fade_in(10).fade_out(10)
         return note
 
 
@@ -83,6 +84,10 @@ def save_to_file(notes, path):
             note = create_note(pitch, octave, accidental, duration)
             melody += note
 
+     # Set sample width and frame rate
+    melody = melody.set_sample_width(2)  # 16-bit
+    melody = melody.set_frame_rate(44100)  # 44100 Hz
+    
     # Export the melody
     melody.export(path, format="wav")
 
@@ -101,7 +106,7 @@ def play_melody(file):
 
 
 def main(notes):
-    path = "melody.wav"
+    path = "melody3.wav"
     save_to_file(notes, path)
     play_melody(path)
 
