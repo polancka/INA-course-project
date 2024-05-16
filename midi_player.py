@@ -1,6 +1,7 @@
 from pydub import AudioSegment
 from pydub.generators import Sine
 import pygame
+from midiutil.MidiFile import MIDIFile
 
 # Functionality of reading the MIDI notation list of notes and save it to a wav file (and optionally instantly play it)
 
@@ -29,14 +30,14 @@ def pitch_to_midi(pitch, octave, accidental):
 
 def duration_to_value(duration):
     # Mapping of duration names to numerical values
-    duration_mapping = {'whole': 1.0, 'half': 0.5, 'quarter': 0.25,
+    duration_mapping = {'breve':2.0,'whole': 1.0, 'half': 0.5, 'quarter': 0.25,
                         'eighth': 0.125, '16th': 0.0625}
 
     # Return the numerical value of the duration
     return duration_mapping[duration]
 
 def create_note(pitch, octave, accidental, duration):
-    if pitch is "rest":
+    if pitch == "rest":
         # Return a silent audio segment for the rest duration
         duration_value = duration_to_value(duration)
         return AudioSegment.silent(duration=int(duration_value * 1000))  # duration in milliseconds
@@ -91,6 +92,45 @@ def save_to_file(notes, path):
     # Export the melody
     melody.export(path, format="wav")
 
+def save_to_midi_file(notes, midi_path):
+    print("writing to midi file")
+
+    # create your MIDI object
+    mf = MIDIFile(1)     # only 1 track
+    track = 0   # the only track
+
+    time = 0    # start at the beginning
+    mf.addTrackName(track, time, "Sample Track")
+    mf.addTempo(track, time, 120)
+
+    channel = 0
+    volume = 100
+    for note in notes: 
+        if note.startswith('(('):
+            # Element is a chord, parse it into a list of notes
+            chord_notes = eval(note)
+            for note_str in chord_notes:
+                pitch, octave, accidental, duration = note_str
+                if pitch == 'rest':
+                    continue
+                pitch = pitch_to_midi(pitch, octave, accidental)
+                duration = duration_to_value(duration)
+                mf.addNote(track, channel, pitch, time, duration, volume)
+            time = time + duration
+            
+        else: #is not chord, is a note
+            pitch, octave, accidental, duration = eval(note)
+            if pitch == 'rest':
+                time = time + duration
+            pitch = pitch_to_midi(pitch, octave, accidental)
+            duration = duration_to_value(duration)
+            mf.addNote(track, channel, pitch, time, duration, volume)
+                
+
+    # write it to disk
+    with open(midi_path, 'wb') as outf:
+        mf.writeFile(outf)
+
 
 def play_melody(file):
     # Initialize pygame
@@ -106,9 +146,12 @@ def play_melody(file):
 
 
 def main(notes):
-    path = "melody3.wav"
-    save_to_file(notes, path)
-    play_melody(path)
+    # path = "melody3.wav"
+    midi_path = "midi_melody.mid"
+    # save_to_file(notes, path)
+    save_to_midi_file(notes,midi_path)
+    # play_melody(path)
+    #play_melody(midi_path)
 
 if __name__ == "__main__":
     main()
