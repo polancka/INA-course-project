@@ -39,7 +39,7 @@ def duration_to_value(duration):
 def duration_to_midi(duration):
      # Mapping of duration names to MIDI note lengths
     duration_mapping = {'breve': 8, 'whole': 4, 'half': 2, 'quarter': 1,
-                        'eighth': 0.5, '16th': 0.25}
+                        'eighth': 0.5, '16th': 0.25, '32nd': 0.125, '64th': 0.0625}
     
     # Return the MIDI note length
     return float(duration_mapping[duration])
@@ -104,7 +104,7 @@ def save_to_midi_file(notes, filename):
     print("writing to midi file")
 
     # Create MIDI object with the desired BPM and number of beats per section
-    midi = MIDITime(120, 'myfile.mid', 5, 5, 1)
+    midi = MIDITime(90, filename, 5, 5, 1)
     beats = 0.0
     midi_notes = []
     velocity = 127 
@@ -124,6 +124,7 @@ def save_to_midi_file(notes, filename):
         else: #is not chord, is a note
             pitch, octave, accidental, duration = eval(note)
             if pitch == 'rest': #THIS IS A PAUSE
+                duration_beats = duration_to_midi(duration)
                 beats = beats + duration_beats
                 continue
             pitch = pitch_to_midi(pitch, octave, accidental)
@@ -154,7 +155,7 @@ def play_melody(file):
 def main(notes):
     print("notes")
     # path = "melody3.wav"
-    midi_path = "midi_melody.mid"
+    midi_path = "songs/scotishLute_multi_5.mid"
     # save_to_file(notes, path)
     save_to_midi_file(notes,midi_path)
     # play_melody(path)
