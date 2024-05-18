@@ -1,0 +1,4627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise  PUBLIC "-//Recordare//DTD MusicXML 3.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="3.0">
+  <work>
+    <work-title>N°2 The Angels in the Heaven</work-title>
+  </work>
+  <movement-title>GCH_002_Erkomaishvili_text.xml</movement-title>
+  <identification>
+    <creator type="composer">Music21</creator>
+    <encoding>
+      <encoding-date>2019-10-29</encoding-date>
+      <software>music21 v.5.1.0</software>
+      <software>Sibelius 8.2.0</software>
+      <software>Direct export, not from Dolet</software>
+      <supports attribute="new-system" element="print" type="yes" value="yes" />
+      <supports attribute="new-page" element="print" type="yes" value="yes" />
+    </encoding>
+  </identification>
+  <defaults>
+    <scaling>
+      <millimeters>215.9</millimeters>
+      <tenths>1194</tenths>
+    </scaling>
+    <page-layout>
+      <page-height>1545</page-height>
+      <page-width>1194</page-width>
+      <page-margins>
+        <left-margin>70</left-margin>
+        <right-margin>70</right-margin>
+        <top-margin>88</top-margin>
+        <bottom-margin>88</bottom-margin>
+      </page-margins>
+    </page-layout>
+    <system-layout>
+      <system-margins>
+        <left-margin>21</left-margin>
+        <right-margin>0</right-margin>
+      </system-margins>
+      <system-distance>92</system-distance>
+    </system-layout>
+    <appearance>
+      <line-width type="stem">0.9375</line-width>
+      <line-width type="beam">5</line-width>
+      <line-width type="staff">0.9375</line-width>
+      <line-width type="light barline">1.5625</line-width>
+      <line-width type="heavy barline">5</line-width>
+      <line-width type="leger">1.5625</line-width>
+      <line-width type="ending">1.5625</line-width>
+      <line-width type="wedge">1.25</line-width>
+      <line-width type="enclosure">0.9375</line-width>
+      <line-width type="tuplet bracket">1.25</line-width>
+      <line-width type="bracket">5</line-width>
+      <line-width type="dashes">1.5625</line-width>
+      <line-width type="extend">0.9375</line-width>
+      <line-width type="octave shift">1.5625</line-width>
+      <line-width type="pedal">1.5625</line-width>
+      <line-width type="slur middle">1.5625</line-width>
+      <line-width type="slur tip">0.625</line-width>
+      <line-width type="tie middle">1.5625</line-width>
+      <line-width type="tie tip">0.625</line-width>
+      <note-size type="cue">75</note-size>
+      <note-size type="grace">60</note-size>
+    </appearance>
+    <music-font font-family="Opus Std" font-size="20.4999" />
+    <lyric-font font-family="Times New Roman" font-size="11.8515" />
+    <lyric-language xml:lang="en" />
+  </defaults>
+  <credit page="1">
+    <credit-words default-x="596" default-y="70" font-family="Times New Roman" font-size="22.742" font-style="normal" font-weight="bold" justify="center" valign="middle">N°2 The Angels in the Heaven</credit-words>
+  </credit>
+  <credit page="2">
+    <credit-words default-x="70" default-y="1457" font-style="normal" font-weight="normal" justify="left" valign="middle">2</credit-words>
+  </credit>
+  <part-list>
+    <part-group number="1" type="start">
+      <group-symbol>bracket</group-symbol>
+      <group-barline>yes</group-barline>
+    </part-group>
+    <score-part id="P1">
+      <part-name />
+      <part-abbreviation />
+      <score-instrument id="I40a5c3a676053b757d5c64d845ecf89a">
+        <instrument-name>(9)</instrument-name>
+      </score-instrument>
+    </score-part>
+    <score-part id="P2">
+      <part-name />
+      <part-abbreviation />
+      <score-instrument id="Ib1b0ee52d7571caf121b1f2b0ba52818">
+        <instrument-name>(10)</instrument-name>
+      </score-instrument>
+    </score-part>
+    <score-part id="P3">
+      <part-name />
+      <part-abbreviation />
+      <score-instrument id="I095c5406c95025d54e1de319ab743843">
+        <instrument-name />
+      </score-instrument>
+    </score-part>
+    <part-group number="1" type="stop" />
+  </part-list>
+  <!--=========================== Part 1 ===========================-->
+  <part id="P1">
+    <!--========================= Measure 1 ==========================-->
+    <measure number="1" width="951">
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>65</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>128</top-system-distance>
+        </system-layout>
+        <staff-layout number="1" />
+      </print>
+      <attributes>
+        <divisions>10080</divisions>
+        <key color="#000000">
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time color="#000000">
+          <beats>26</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef color="#000000">
+          <sign>G</sign>
+          <line>2</line>
+          <clef-octave-change>-1</clef-octave-change>
+        </clef>
+        <staff-details print-object="yes" />
+        <transpose>
+          <diatonic>0</diatonic>
+          <chromatic>0</chromatic>
+          <octave-change>-1</octave-change>
+        </transpose>
+      </attributes>
+      <note color="#000000" default-x="104" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>agh</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>1</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="158" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>dgo</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>2</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="206" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ma</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>3</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="288" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>6</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="315" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>7</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="361" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>she</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>9</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="395" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>10</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="424" default-y="12">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa,</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>11</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="454" default-y="12">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">forward hook</beam>
+      </note>
+      <note color="#000000" default-x="481" default-y="12">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>12</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="502" default-y="12">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note color="#000000" default-x="523" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>13</text>
+        </lyric>
+      </note>
+      <note default-x="549">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="575" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>qri</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>15</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="610" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>16</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="639" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>st'e</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>17</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="700" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ma</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>19</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="746" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>20</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="780" default-y="-52">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="5" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>tskho</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>21</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="805" default-y="-52">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#000000" default-x="831" default-y="-52">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>22</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="852" default-y="-52">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="5" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="877" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>var,</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>23</text>
+        </lyric>
+      </note>
+      <note default-x="925">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <!--========================= Measure 2 ==========================-->
+    <measure number="2" width="1017">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>170</system-distance>
+        </system-layout>
+        <staff-layout number="1" />
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>25</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="104" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>an</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>27</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="141" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ge</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>28</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="178" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>loz</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>29</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="215" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ni</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>30</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="278" default-y="-40">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>32</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="347" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>u</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>34</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="410" default-y="-49">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ga</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>36</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="437" default-y="-49">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#000000" default-x="464" default-y="-49">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>37</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="490" default-y="-49">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="517" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>lo</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>38</text>
+        </lyric>
+      </note>
+      <note default-x="629">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="666" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>be</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>42</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="703" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>43</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="740" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>tsa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>44</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="777" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>45</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="815" default-y="-49">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ta</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>46</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="841" default-y="-49">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="868" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>shi</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>47</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="905" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>na.</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>48</text>
+        </lyric>
+      </note>
+      <note default-x="980">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <!--========================= Measure 3 ==========================-->
+    <measure number="3" width="1017">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>161</system-distance>
+        </system-layout>
+        <staff-layout number="1" />
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>28</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="103" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>single</syllabic>
+          <text>da</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>52</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="149" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>chven</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>53</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="199" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>tsa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>54</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="283" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>57</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="316" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ghirs</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>58</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="376" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>mq've</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>60</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="418" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>61</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="450" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>qve</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>62</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="485" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>63</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="531" default-y="4">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>64</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="552" default-y="4">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note color="#000000" default-x="572">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>65</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="616" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>q'a</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>66</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="651" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>67</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="677">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>na</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>68</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="710" default-y="-10">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>69</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="736">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>70</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="792" default-y="2">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ze</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>72</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="818" default-y="2">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#000000" default-x="838" default-y="2">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>73</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="859" default-y="2">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="879" default-y="-5">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>da</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>74</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="900" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note color="#000000" default-x="920" default-y="-10">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>75</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="945" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>76</text>
+        </lyric>
+      </note>
+      <note default-x="980">
+        <rest />
+        <duration>20160</duration>
+        <type>half</type>
+      </note>
+    </measure>
+    <!--========================= Measure 4 ==========================-->
+    <measure number="4" width="1054">
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>177</top-system-distance>
+        </system-layout>
+        <staff-layout number="1" />
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>26</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="105" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ts'mi</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>80</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="141" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>81</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="177" default-y="-40">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>di</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>82</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="249" default-y="-40">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>t</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>85</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="285" default-y="-35">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>gu</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>86</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="320" default-y="-40">
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>87</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="356" default-y="-52">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>7560</duration>
+        <type>eighth</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="5" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>li</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>88</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="386" default-y="-52">
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <type>16th</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <beam number="2">backward hook</beam>
+      </note>
+      <note color="#000000" default-x="406" default-y="-52">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>89</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="432" default-y="-52">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="5" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="458" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ta</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>90</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="518" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>92</text>
+        </lyric>
+      </note>
+      <note default-x="554">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="590" default-y="-45">
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>di</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>94</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="638" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <alter>0</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="663" default-y="12">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>de</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>96</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="689" default-y="12">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#000000" default-x="715" default-y="12">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>97</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="741" default-y="12">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+      </note>
+      <direction>
+        <direction-type>
+          <words default-x="764" default-y="28" enclosure="none" font-family="Times New Roman" font-size="12.1718" font-style="normal" font-weight="bold" justify="left" valign="middle">rit.</words>
+        </direction-type>
+      </direction>
+      <note color="#000000" default-x="770" default-y="2">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>bad</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>98</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="795" default-y="2">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#000000" default-x="821" default-y="2">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>99</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="847" default-y="2">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note color="#000000" default-x="875" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>100</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="911" default-y="-10">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>shen</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>101</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="955">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <type>whole</type>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part1verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>da.</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>102</text>
+        </lyric>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+  <!--=========================== Part 2 ===========================-->
+  <part id="P2">
+    <!--========================= Measure 1 ==========================-->
+    <measure number="1" width="951">
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>65</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>78</staff-distance>
+        </staff-layout>
+      </print>
+      <attributes>
+        <divisions>10080</divisions>
+        <key color="#000000">
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time color="#000000">
+          <beats>26</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef color="#000000">
+          <sign>G</sign>
+          <line>2</line>
+          <clef-octave-change>-1</clef-octave-change>
+        </clef>
+        <staff-details print-object="yes" />
+        <transpose>
+          <diatonic>0</diatonic>
+          <chromatic>0</chromatic>
+          <octave-change>-1</octave-change>
+        </transpose>
+      </attributes>
+      <note color="#000000" default-x="104" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>[agh</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>1</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="158" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>dgo]-</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>2</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="206" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ma</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>3</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="241" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>4</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="267" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>5</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="315" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>7</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="361" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>she</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>9</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="395" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>10</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="424" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>11</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="481" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>12</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="523" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>13</text>
+        </lyric>
+      </note>
+      <note default-x="549">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="575" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>qri</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>15</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="639" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>st'e</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>17</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="674" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>18</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="700" default-y="2">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ma</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>19</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="725" default-y="2">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+      </note>
+      <note color="#000000" default-x="746" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>20</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="780">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>tskho</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>21</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="877" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>var,</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>23</text>
+        </lyric>
+      </note>
+      <note default-x="925">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <!--========================= Measure 2 ==========================-->
+    <measure number="2" width="1017">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>62</staff-distance>
+        </staff-layout>
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>25</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="104" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>an</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>27</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="141" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ge</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>28</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="178" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>loz</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>29</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="215">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <type>whole</type>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ni</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>30</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="347" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>u</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>34</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="410" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ga</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>36</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="517" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>lo</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>38</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="555" default-y="-50">
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>39</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="592" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>40</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="629" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>41</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="666" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>be</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>42</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="703" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>43</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="740" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>tsa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>44</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="777" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>45</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="815" default-y="2">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="4" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ta</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>46</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="841" default-y="2">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="4" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="868">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>shi</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>47</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="905" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>na.</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>48</text>
+        </lyric>
+      </note>
+      <note default-x="980">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <!--========================= Measure 3 ==========================-->
+    <measure number="3" width="1017">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>75</staff-distance>
+        </staff-layout>
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>28</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="103" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>single</syllabic>
+          <text>da</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>52</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="149" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>chven</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>53</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="199" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>tsa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>54</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="234" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>55</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="259" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>56</text>
+        </lyric>
+      </note>
+      <note default-x="283">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="316" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ghirs</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>58</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="376" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>mq've</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>60</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="418" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>61</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="450" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>qve</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>62</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="502" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+      </note>
+      <note color="#000000" default-x="531" default-y="9">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>64</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="552" default-y="9">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#000000" default-x="572" default-y="9">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>65</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="593" default-y="9">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="6" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="616" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>q'a</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>66</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="677" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>na</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>68</text>
+        </lyric>
+      </note>
+      <note default-x="710">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="736" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>70</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="792" default-y="12">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">begin</beam>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ze</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>72</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="818" default-y="12">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+      </note>
+      <note color="#000000" default-x="838" default-y="12">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">continue</beam>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>73</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="859" default-y="12">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <beam number="1">end</beam>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="879">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>da</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>74</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="945" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>76</text>
+        </lyric>
+      </note>
+      <note default-x="980">
+        <rest />
+        <duration>20160</duration>
+        <type>half</type>
+      </note>
+    </measure>
+    <!--========================= Measure 4 ==========================-->
+    <measure number="4" width="1054">
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>67</staff-distance>
+        </staff-layout>
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>26</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="105">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ts'mi</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>80</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="141" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>81</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="177" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>dit</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>82</text>
+        </lyric>
+      </note>
+      <note default-x="249">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="285" default-y="-55">
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>gu</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>86</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="320" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>87</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="356" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>li</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>88</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="406">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>89</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="458" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ta</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>90</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="518">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>92</text>
+        </lyric>
+      </note>
+      <note default-x="554">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="590" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>di</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>94</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="663" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>de</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>96</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="741" default-y="10">
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="770" default-y="5">
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>bad</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>98</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="847" default-y="-5">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+      </note>
+      <note color="#000000" default-x="875">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>100</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="911">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>shen</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>101</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="955">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <type>whole</type>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part2verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>da.</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>102</text>
+        </lyric>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+  <!--=========================== Part 3 ===========================-->
+  <part id="P3">
+    <!--========================= Measure 1 ==========================-->
+    <measure number="1" width="951">
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>65</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>68</staff-distance>
+        </staff-layout>
+      </print>
+      <attributes>
+        <divisions>10080</divisions>
+        <key color="#000000">
+          <fifths>1</fifths>
+          <mode>major</mode>
+        </key>
+        <time color="#000000">
+          <beats>26</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef color="#000000">
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="104" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>[agh</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>1</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="158" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>dgo]-</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>2</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="206" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ma</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>3</text>
+        </lyric>
+      </note>
+      <note default-x="288">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="315" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>7</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="361" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>she</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>9</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="395" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>10</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="424" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>11</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="523" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>13</text>
+        </lyric>
+      </note>
+      <note default-x="549">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="575" default-y="-50">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>qri</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>15</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="639" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>st'e</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>17</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="674" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>18</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="700" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ma</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>19</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="746" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>20</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="780" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>tskho</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>21</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="831" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>22</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="877" default-y="-50">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>var,</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>23</text>
+        </lyric>
+      </note>
+      <note default-x="925">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <!--========================= Measure 2 ==========================-->
+    <measure number="2" width="1017">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>56</staff-distance>
+        </staff-layout>
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>25</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="104" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>an</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>27</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="141" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ge</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>28</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="178" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>loz</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>29</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="215" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ni</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>30</text>
+        </lyric>
+      </note>
+      <note default-x="310">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="347" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>u</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>34</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="410" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>ga</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>36</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="517" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>lo</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>38</text>
+        </lyric>
+      </note>
+      <note default-x="629">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="666" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>be</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>42</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="703" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>43</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="740" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>tsa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>44</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="815" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ta</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>46</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="868" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>shi</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>47</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="905" default-y="-50">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>na.</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>48</text>
+        </lyric>
+      </note>
+      <note default-x="980">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+    </measure>
+    <!--========================= Measure 3 ==========================-->
+    <measure number="3" width="1017">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>67</staff-distance>
+        </staff-layout>
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>28</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="103" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>single</syllabic>
+          <text>da</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>52</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="149" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>chven</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>53</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="199">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <type>whole</type>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>tsa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>54</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="316" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ghirs</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>58</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="376" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>m'qve</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>60</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="418" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>61</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="450" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>qve</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>62</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="531" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>64</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="616" default-y="-50">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>q'a</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>66</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="677" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>na</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>68</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="710" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>69</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="736">
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>sa</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>70</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="767" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>71</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="792" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ze</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>72</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="838" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>73</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="879" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>da</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>74</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="920" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>75</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="945" default-y="-50">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="4" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>76</text>
+        </lyric>
+      </note>
+      <note default-x="980">
+        <rest />
+        <duration>20160</duration>
+        <type>half</type>
+      </note>
+    </measure>
+    <!--========================= Measure 4 ==========================-->
+    <measure number="4" width="1054">
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>74</staff-distance>
+        </staff-layout>
+      </print>
+      <attributes>
+        <time color="#000000">
+          <beats>26</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <staff-details print-object="yes" />
+      </attributes>
+      <note color="#000000" default-x="105" default-y="-45">
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>ts'mi</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>80</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="141" default-y="-50">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>n</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>81</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="177" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>30240</duration>
+        <type>half</type>
+        <dot />
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>dit</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>82</text>
+        </lyric>
+      </note>
+      <note default-x="249">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="285" default-y="-50">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>gu</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>86</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="320" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="5" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>87</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="356" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>li</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>88</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="406" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="6" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>89</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="458">
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>ta</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>90</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="518" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="1" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>92</text>
+        </lyric>
+      </note>
+      <note default-x="554">
+        <rest />
+        <duration>10080</duration>
+        <type>quarter</type>
+      </note>
+      <note color="#000000" default-x="590" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>di</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>94</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="663" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>15120</duration>
+        <type>quarter</type>
+        <dot />
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>middle</syllabic>
+          <text>de</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>96</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="741">
+        <pitch>
+          <step>A</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="2" type="stop" />
+        </notations>
+      </note>
+      <note color="#000000" default-x="770" default-y="5">
+        <pitch>
+          <step>B</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="start" />
+        </notations>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>bad</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>98</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="821" default-y="10">
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>20160</duration>
+        <type>half</type>
+        <stem>up</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <notations>
+          <slur number="3" type="stop" />
+        </notations>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>99</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="911" default-y="-55">
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>begin</syllabic>
+          <text>shen</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>101</text>
+        </lyric>
+      </note>
+      <note color="#000000" default-x="955">
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <type>whole</type>
+        <notehead color="#000000" parentheses="no">normal</notehead>
+        <lyric color="#000000" default-y="-80" name="part3verse1" number="1">
+          <syllabic>end</syllabic>
+          <text>da.</text>
+        </lyric>
+        <lyric name="refnum" number="2">
+          <syllabic>single</syllabic>
+          <text>102</text>
+        </lyric>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>
