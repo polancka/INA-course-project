@@ -114,7 +114,7 @@ def save_to_midi_file(notes, filename):
             chord_notes = eval(note)
             for note_str in chord_notes:
                 pitch, octave, accidental, duration = note_str
-                if pitch == 'rest':
+                if pitch == 'rest': #THIS IS A PAUSE; BUT IN A CHORD SO WE CAN JUST SKIP IT
                     continue
                 pitch = pitch_to_midi(pitch, octave, accidental)
                 duration_beats = duration_to_midi(duration)
@@ -123,8 +123,9 @@ def save_to_midi_file(notes, filename):
             
         else: #is not chord, is a note
             pitch, octave, accidental, duration = eval(note)
-            if pitch == 'rest':
+            if pitch == 'rest': #THIS IS A PAUSE
                 beats = beats + duration_beats
+                continue
             pitch = pitch_to_midi(pitch, octave, accidental)
             duration_beats = duration_to_midi(duration)
             midi_notes.append([beats, pitch, velocity, duration_beats])
@@ -151,6 +152,7 @@ def play_melody(file):
 
 
 def main(notes):
+    print("notes")
     # path = "melody3.wav"
     midi_path = "midi_melody.mid"
     # save_to_file(notes, path)

@@ -38,7 +38,7 @@ def main(graph, walk_length):
 
 
 if __name__ == "__main__":
-    graph = nx.read_pajek("notes_graph.net")
-    main(graph, 5) #adjust the length of the song
+    graph = nx.read_pajek("classic_multi_graph.net")
+    main(graph, 55) #adjust the length of the song
 
 
