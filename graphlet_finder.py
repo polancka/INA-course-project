@@ -7,6 +7,7 @@ from itertools import combinations
 import json 
 import os
 import numpy as np
+from datetime import datetime
 
 def graph_to_adjacency_list(G):
     """Convert a NetworkX graph to an adjacency list representation."""
@@ -85,7 +86,7 @@ def main():
         graph = nx.read_pajek(file_path)
         adj_list = graph_to_adjacency_list(graph)
         atlas = nx.graph_atlas_g()
-        graphlets = [G for G in atlas if 2 == len(G) and nx.is_connected(G)]
+        graphlets = [G for G in atlas if 2 <= len(G) <= 4 and nx.is_connected(G)]
 
         graphlet_counts = {}
         for graphlet in graphlets:
