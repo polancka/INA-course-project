@@ -88,7 +88,6 @@ def main():
         graphlets = [G for G in atlas if 2 == len(G) and nx.is_connected(G)]
 
         graphlet_counts = {}
-        list_nodes = graph.nodes
         for graphlet in graphlets:
             print(f"graphlet {graphlet.name}")
             graphlet_str = nx.generate_edgelist(graphlet)
@@ -116,7 +115,7 @@ def main():
         loaded_array = np.load(numpy_save_directory + filename + '.npy')
         print("Loaded Array:\n", loaded_array)
 
-        #TODO: line graph for all netwroks at once
+       
     draw_line_graph(end_graphlets)
 
 # if __name__ == "__main__":
