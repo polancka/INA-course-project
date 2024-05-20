@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from itertools import combinations
 import json 
 import os
+import numpy as np
 
 def graph_to_adjacency_list(G):
     """Convert a NetworkX graph to an adjacency list representation."""
@@ -74,7 +75,7 @@ def count_graphlet_occurrences(adj_list, graphlet):
 def main():
 
     directory_path = 'graphs/'
-    json_save_directory = 'graphlet_jsons/'
+    numpy_save_directory = 'graphlet_arrays/'
     end_graphlets = {}
     for filename in os.listdir(directory_path):
         file_path = os.path.join(directory_path, filename)
@@ -84,7 +85,7 @@ def main():
         graph = nx.read_pajek(file_path)
         adj_list = graph_to_adjacency_list(graph)
         atlas = nx.graph_atlas_g()
-        graphlets = [G for G in atlas if 2 <= len(G) <= 4 and nx.is_connected(G)]
+        graphlets = [G for G in atlas if 2 == len(G) and nx.is_connected(G)]
 
         graphlet_counts = {}
         list_nodes = graph.nodes
@@ -99,11 +100,21 @@ def main():
         
         #draw_histogram(graphlet_counts) #TODO: change from histogram to line graph
         end_graphlets[filename] = graphlet_counts # save for later visualisation
-        # Convert and write JSON object to file
-        json_filename = f"{filename}.json"
-        json_file_path = os.path.join(json_save_directory, json_filename)
-        with open(json_file_path, 'w') as json_file:
-            json.dump(graphlet_counts, json_file, indent=4)
+        # Sort the dictionary by the numerical part of the keys
+        sorted_keys = sorted(graphlet_counts.keys(), key=lambda x: int(x[1:]))
+
+        # Extract the values in sorted order
+        sorted_values = [graphlet_counts[key] for key in sorted_keys]
+
+        # Convert to a numpy array
+        array = np.array(sorted_values)
+
+        # Save the numpy array to a file
+        np.save(numpy_save_directory + filename, array)
+
+        # Load the array back to verify
+        loaded_array = np.load(numpy_save_directory + filename + '.npy')
+        print("Loaded Array:\n", loaded_array)
 
         #TODO: line graph for all netwroks at once
     draw_line_graph(end_graphlets)
