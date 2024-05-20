@@ -4,6 +4,8 @@ from networkx import graph_atlas_g
 import random
 import matplotlib.pyplot as plt
 from itertools import combinations
+import json 
+import os
 
 def graph_to_adjacency_list(G):
     """Convert a NetworkX graph to an adjacency list representation."""
@@ -32,20 +34,14 @@ def count_graphlet_occurrences(adj_list, graphlet):
     
     # Iterate over all combinations of nodes of size equal to the graphlet
     for combo in combinations(adj_list.keys(), graphlet_size):
-        #print("__________________________________________")
-        #print(combo)
         subgraph_edges = set()
         for u, v in combinations(combo, 2):
-            #print(u,v)
-            #print(v)
-            #print(adj_list[u])
             if v in adj_list[u]:
                 subgraph_edges.add((u, v))
-        #print(subgraph_edges)
-        #print("--------------------------------------------")  
+ 
         subgraph = nx.Graph()
         subgraph.add_edges_from(subgraph_edges)
-        # Get a canonical form of the subgraph (sorted edge list)
+
         canonical_form = tuple(sorted(combo))
 
         if canonical_form not in seen_subgraphs:
@@ -56,24 +52,39 @@ def count_graphlet_occurrences(adj_list, graphlet):
     return count
 
 def main():
-    print("counting graphlets") 
-    graph = nx.read_pajek("graphs/notes_graph.net")
-    adj_list = graph_to_adjacency_list(graph)
-    atlas = nx.graph_atlas_g()
-    graphlets = [G for G in atlas if 2 <= len(G) <= 5 and nx.is_connected(G)]
-   
-    graphlet_counts = {}
-    list_nodes = graph.nodes
-    for graphlet in graphlets:
-        print(f"graphlet {graphlet}")
-        graphlet_str = nx.generate_edgelist(graphlet)
-        graphlet_counts[graphlet_str] = count_graphlet_occurrences(adj_list, graphlet)
-        print(graphlet_counts[graphlet_str])
 
-    for graphlet, count in graphlet_counts.items():
-        print(f"Graphlet:\n{graphlet}\nCount: {count}\n")
+    directory_path = 'graphs/'
+    json_save_directory = 'graphlet_jsons/'
 
-    draw_histogram(graphlet_counts)
+    for filename in os.listdir(directory_path):
+        file_path = os.path.join(directory_path, filename)
+        print(file_path)
+
+        print("counting graphlets") 
+        graph = nx.read_pajek("graphs/notes_graph.net")
+        adj_list = graph_to_adjacency_list(graph)
+        atlas = nx.graph_atlas_g()
+        graphlets = [G for G in atlas if 2 == len(G) and nx.is_connected(G)]
+        graphlet_counts = {}
+        list_nodes = graph.nodes
+        for graphlet in graphlets:
+            print(f"graphlet {graphlet.name}")
+            graphlet_str = nx.generate_edgelist(graphlet)
+            graphlet_counts[graphlet.name] = count_graphlet_occurrences(adj_list, graphlet)
+            print(graphlet_counts[graphlet.name])
+
+        for graphlet, count in graphlet_counts.items():
+            print(f"Graphlet:\n{graphlet}\nCount: {count}\n")
+        
+        draw_histogram(graphlet_counts) #TODO: change from histogram to line graph
+
+        # Convert and write JSON object to file
+        json_filename = f"{filename}.json"
+        json_file_path = os.path.join(json_save_directory, json_filename)
+        with open(json_file_path, 'w') as json_file:
+            json.dump(graphlet_counts, json_file, indent=4)
+
+        #TODO: line graph for all netwroks at once
 
 # if __name__ == "__main__":
 #     main()
