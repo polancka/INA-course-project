@@ -20,13 +20,14 @@ def plot_arrays_from_directory(directory_path):
     plt.figure(figsize=(10, 6))
     for label, values in data.items():
         plt.plot(values, marker='o', label=label)
-
+    x_labels = ["G3", "G6", "G7", "G13",  "G14",  "G15",  "G16",  "G17",  "G18", ]
     # Adding title and labels
     plt.title('Graphlet Counts from .npy Files')
     plt.xlabel('Index')
     plt.ylabel('Value')
     plt.legend()
+    plt.xticks(ticks=range(len(x_labels)), labels=x_labels)
     plt.tight_layout()
     plt.show()
 
-plot_arrays_from_directory("graph_arrays")
+plot_arrays_from_directory("graphlet_arrays")
