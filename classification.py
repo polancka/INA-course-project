@@ -150,8 +150,6 @@ def read_graphlet_arrays(directory_path: str):
 def cos_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-
-
 def graphlet_calculations():
     genre_graphlet_arrays = []
     save_dir = 'data/test_graphlets/'
@@ -181,13 +179,7 @@ def graphlet_calculations():
             graphlet_counts = {}
             for graphlet in graphelets:
                 graphlet_counts[graphlet.name] = count_graphlet_occurrences(adj_list, graphlet)
-                #print(f"graphlet {graphlet.name}")
-                #graphlet_str = nx.generate_edgelist(graphlet)
-                #graphlet_str = nx.generate_edgelist(graphlet)
-            # for graphlet, count in graphlet_counts.items():
-            #     print(f"Graphlet:\n{graphlet}\nCount: {count}\n")
-
-            #end_graphlets[file.removesuffix('.xml')] = graphlet_counts # save for later visualisation
+            
             sorted_keys = sorted(graphlet_counts.keys(),key=lambda x: int(x[1:]))
 
             sorted_values = [graphlet_counts[key] for key in sorted_keys]
@@ -202,13 +194,7 @@ def cos_distance(a, b):
     return 1 - cos_similarity(a, b)
 
 def overall_classification_accuracy(results: dict):
-    #sample genre
-    #classical classic
-    #engfolk englishFolk
-    #GCH georgianFolk
-    #modern modern
-    #scotlute scotishLute
-
+    
     correct = 0
     total = 0
     for sample, genre in results.items():
@@ -233,15 +219,9 @@ def cosine_results() -> dict:
     print(genre_graphlets_dic)
     test_graphlets_dic = read_graphlet_arrays("data/test_graphlets/")
     print(len(test_graphlets_dic))
-    #{'classic_graph.net': array([   3201,   71106,    5767,  936785, 1125012,  418807,   27283,52778,    6612]), 'englishFolk_graph.net': array([ 235, 1736,  380, 4514, 6886, 5761,  298, 1590,  349], dtype=int64), 'georgianFolk_graph.net': array([  1418,  29265,   4071, 472715, 227708, 213036,   6494,  36093,7085]), 'modern_graph.net': array([  321,  2578,   270,  9339, 14000,  5772,   468,   946,   103],dtype=int64), 'music_graph.net': array([  1566,  31575,   4271, 500681, 257501, 229473,   6964,  38320,7331]), 'scotishLute_graph.net': array([  698,  8627,   589, 43816, 77195, 21075,  2926,  2497,   149],dtype=int64)}
     results = {}
     classification = {}
-    # for sample_name, sample_arr in test_graphlets_dic:
-    #     results[sample_name] = {}
-    #     for genre_name,genre_arr in genre_graphlets_dic:
-    #         results[sample_name][genre_name] = cos_similarity(sample_arr, genre_arr)
-    #     classification[sample_name] = min(results[sample_name], key=results[sample_name].get)
-    # return classification
+
     for sample_name, sample_arr in test_graphlets_dic.items():
         results[sample_name] = {}
         for genre_name, genre_arr in genre_graphlets_dic.items():
@@ -283,30 +263,22 @@ def genre_classification_accuracy(classification: dict):
             modern_total += 1
         elif sample.startswith('scotlute'):
             scotishLute_total += 1
-    classic_accuracy = classic_correct / classic_total
-    englishFolk_accuracy = englishFolk_correct / englishFolk_total
-    georgianFolk_accuracy = georgianFolk_correct / georgianFolk_total
-    modern_accuracy = modern_correct / modern_total
-    scotishLute_accuracy = scotishLute_correct / scotishLute_total
-    accuracy['classic'] = classic_accuracy
-    accuracy['englishFolk'] = englishFolk_accuracy
-    accuracy['georgianFolk'] = georgianFolk_accuracy
-    accuracy['modern'] = modern_accuracy
-    accuracy['scotishLute'] = scotishLute_accuracy
-
+    accuracy['classic'] = classic_correct / classic_total
+    accuracy['englishFolk'] = englishFolk_correct / englishFolk_total
+    accuracy['georgianFolk'] = georgianFolk_correct / georgianFolk_total
+    accuracy['modern'] = modern_correct / modern_total
+    accuracy['scotishLute'] = scotishLute_correct / scotishLute_total
 
     return accuracy
 
 
 def main():
     classification = cosine_results()
-    for k in classification:
-        print(f'd[{k}] = {classification[k]}')
     accuracy = overall_classification_accuracy(classification)
     genre_acc = genre_classification_accuracy(classification)
-    print(accuracy)
-    print(genre_acc)
-
+    print(f'Overall accuracy :{accuracy}')
+    for k in genre_acc:
+        print(f'{k} accuracy: {genre_acc[k]}')
 
 
 main()
